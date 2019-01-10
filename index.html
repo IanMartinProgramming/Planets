@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<title>jQuery Mobile</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+	<link rel="stylesheet" href="_css/jquery.mobile.css">
+	<link rel="stylesheet" href="_css/mystyles.css">
+
+	<script src="_js/jquery.js"></script>
+	<script src="_js/jquery.mobile.js"></script>
+	<script src="_js/myscript.js"></script>
+	<style>
+
+	</style>
+</head>
+
+<body>
+	<div data-role="page" id="planet" data-theme="a">
+		<header data-role="header">
+			<h1 class="ui-title ui-shadow">Planets</h1>
+		</header>
+
+		<section class="ui-content" role="main">
+			<ul id="planetmenu" data-role="listview" data-inset="true" data-filter="true">
+
+			</ul>
+			<!-- <div id="menu" data-role="collapsible-set"> </div> -->
+		</section>
+
+		<footer data-role="footer">
+			<h1 class="ui-title ui-shadow">Planets</h1>
+		</footer>
+	</div> <!-- id=planet -->
+
+	<div data-role="page" id="individual">
+		<header data-role="header">
+			<a href="#planet" class="ui-btn ui-icon-home ui-btn-icon-left">Home</a>
+			<h1 id="pname"></h1>
+		</header>
+		<section class="ui-content" role="main">
+			<div class="ui-grid-a">
+				<section class="ui-block-a" id="mainblocka"></section>
+				<section class="ui-block-b" id="mainblockb"></section>
+			</div>
+		</section>
+	</div>
+</body>
+
+</html>
